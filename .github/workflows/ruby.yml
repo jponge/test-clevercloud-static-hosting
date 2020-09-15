@@ -31,5 +31,5 @@ jobs:
         AWS_S3_BUCKET: test-clevercloud-static-hosting.for.vertx.project
         AWS_ACCESS_KEY_ID: ${{ secrets.KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.KEY_SECRET }}
-        AWS_S3_ENDPOINT: ${{ secrets.HOST }}
+        AWS_S3_ENDPOINT: https://${{ secrets.HOST }}
         SOURCE_DIR: _site
